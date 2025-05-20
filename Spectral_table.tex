@@ -1,0 +1,16 @@
+
+\begin{table}[h]
+    \centering
+    \caption{Using K-Means Clustering}
+    \begin{tabular}{lrrrrrrrrllllrrrrrrrrrrrr}
+\toprule
+ & \multicolumn{4}{r}{No Data Processing} & \multicolumn{4}{r}{Using Normalization} & \multicolumn{4}{r}{Using Transform} & \multicolumn{4}{r}{Using PCA} & \multicolumn{4}{r}{Using T+N} & \multicolumn{4}{r}{T+N+PCA} \\
+ & c=3 & c=4 & c=5 & c=6 & c=3 & c=4 & c=5 & c=6 & c=3 & c=4 & c=5 & c=6 & c=3 & c=4 & c=5 & c=6 & c=3 & c=4 & c=5 & c=6 & c=3 & c=4 & c=5 & c=6 \\
+\midrule
+Silhouette & -0.515900 & -0.427700 & -0.368700 & -0.478600 & 0.525500 & 0.522600 & 0.209600 & -0.135200 & NA & NA & NA & NA & -0.515900 & -0.496800 & -0.419900 & -0.493900 & 0.499600 & 0.418400 & 0.307200 & 0.266600 & 0.499600 & 0.418400 & 0.307200 & 0.266600 \\
+Calinski-Harabasz & 1.818000 & 10.147100 & 108.331300 & 13.714400 & 11.385800 & 8.320200 & 7.524100 & 6.621800 & NA & NA & NA & NA & 1.818000 & 1.437300 & 18.293600 & 13.839200 & 239.858500 & 165.045500 & 135.745800 & 118.904000 & 239.858500 & 165.045500 & 135.745800 & 118.904000 \\
+Davies-Bouldin & 0.797600 & 1.139800 & 2.126400 & 8.675800 & 0.602500 & 0.344000 & 0.473100 & 1.420700 & NA & NA & NA & NA & 0.797600 & 7.998600 & 9.077400 & 7.575000 & 0.785800 & 0.737900 & 1.035300 & 1.314200 & 0.785800 & 0.737900 & 1.035300 & 1.314200 \\
+\bottomrule
+\end{tabular}
+
+\end{table}
